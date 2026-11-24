@@ -1,0 +1,22 @@
+# Versions used for the paper (Python 3.12). Install PyTorch first, from the PyTorch package index:
+#   uv pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128      (CPU only: --index-url https://download.pytorch.org/whl/cpu)
+# then:
+#   uv pip install -r requirements.txt
+numpy==2.5.4
+pandas==3.1.1
+pyarrow==26.0.1
+scipy==1.18.1
+scikit-learn==1.9.1
+threadpoolctl==3.8.0
+joblib==1.6.0
+matplotlib==3.11.2
+transformers==4.57.6
+tokenizers==0.22.2
+safetensors==0.8.0
+huggingface-hub==0.36.2
+requests==2.34.2
+tqdm==4.70.1
+jupyterlab==4.6.6
+ipykernel==7.4.0
+ipywidgets==8.1.9
+nbconvert==7.17.2
